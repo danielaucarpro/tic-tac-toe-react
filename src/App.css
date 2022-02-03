@@ -1,0 +1,48 @@
+.board{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 458px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.square:hover{
+  cursor: pointer;
+}
+
+/* Class for X symbol */
+.mark1 {
+  background-image: url('../src/components/images/mark1.png');
+}
+
+/* Class for O symbol */
+.mark2 {
+  background-image: url('../src/components/images/mark2.png');
+}
+
+button{
+  margin: 1rem;
+}
+
+.score-board{
+  margin: 1rem;
+  text-align: center;
+  width: 450px;
+}
+
+.won1{
+  background-color: red;
+}
+
+.won2{
+  background-color: green;
+}
